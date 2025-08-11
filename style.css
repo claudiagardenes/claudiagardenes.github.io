@@ -137,19 +137,21 @@ footer {
 
 #btn-up {
   position: fixed;
-  bottom: 60px;
-  right: 30px;
+  bottom: 40px;
+  right: 40px;
   display: none; /* oculto inicialmente */
   background-color: #1e90ff;
   color: white;
   border: none;
-  padding: 16px 20px 16px 20px;
+  padding: 25px 30px;
   border-radius: 50%;
   font-size: 60px;
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0,0,0,0.3);
   z-index: 1000;
   transition: opacity 0.3s ease;
+  text-align: center;
+  line-height: 50px;
 }
 
 #btn-up:hover {
